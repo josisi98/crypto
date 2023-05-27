@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ff7302;
+}
+
+.jo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    background: #070439;
+    width: 50vw;
+    height: 40px;
+    color: white;
+    padding: 10vw;
+}
+
+.for{
+    margin-top: -60px;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.tay{
+    
+}

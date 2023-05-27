@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cryto</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+    }
+
+    div{
+        display: block;
+    }
+
+    body{
+        width: 100%;
+        color: #070439;
+        background: #f5f5f5;
+        font-family: "Roboto",sans-serif;
+    }
+
+    header{
+        background: none;
+        padding-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    .img-placed img{
+        width: 600px;
+    }
+
+    .container{
+        width: 600px;
+        margin: auto;
+        padding: auto;
+        height: 600px;
+        display: block;
+    }
+</style>
+<body>
+    <header></header>
+    <div class="convaiteur">
+        <div class="img-placed">
+            <img src="../imag/images-2.jpg" alt="">
+        </div>
+
+        <form action="">
+            <input type="text" name="amount" id="amount" placeholder="Entrer Amount" required>
+            <label id=" fromcurrencyName"></label>
+            <div class="select-field"> 
+                <select name="toCurrency" id="toCurrency" onchange="showCurrency">
+                    <option value="BTC">Bitcoin (BTC)</option>
+                    <option value="ETH">Ethereum (ETH)</option>
+                    <option value="USDT">Tether (USDT)</option>
+                    <option value="BNB">Binance coin (BNB)</option>
+                    <option value="USDC">USD coin (USDC)</option>
+                    <option value="XRP">XRT (XRP)</option>
+                    <option value="BUSD">Binance USD (BUSD)</option>
+                    <option value="ADA">Cardano (ADA)</option>
+                    <option value="DOGE">Dogecoin (DOGE)</option>
+                    <option value="MATIC">Polygon (MATIC)</option>
+                    <option value="SOL">Solana (SOl)</option>
+                    <option value="DOT">Polkadot (DOT)</option>
+                    <option value="SHIBA">Shiba (SHIBA)</option>
+                    <option value="LTC">Litecoin (LIT)</option>
+                    <option value="TXR">Tonc (TXR)</option>
+                    <option value="AVAX">Avalanche (LIT)</option>
+                </select>
+            </div>
+
+            <br>
+            <button type="button" id="convert" class="primary-bnt">convert</button>
+            
+        </form>
+        <p id="result "></p>
+    </div>
+</body>
+</html>
